@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 20px;
+    font-family: 'Noto Sans', sans-serif;
+    gap: 15px;
+}
+li{
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 10px;
+}
+.header-left img:first-child{
+    width: 30px;
+    height: 20px;
+}
+.header-left img:last-child{
+    width: 80px;
+    height: 20px;
+}
+.header-left{
+    display: flex;
+    width: 100px;
+    height: 60px;
+}
+.header-1 ul {
+    display: flex;
+    gap: 30px;
+}
+.header-right button{
+    width: 100px;
+    height: 30px;
+    border: 2px solid rgb(13, 201, 201);
+    color: rgb(13, 201, 201);
+    background-color: white;
+
+}
+.download{
+    border-radius:20px;
+    width: 98px;    
+    height: 25px;
+    background-color: rgb(39, 122, 201);
+}
+.infor{ 
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+
+}
+.infor-left{
+    padding-bottom:  38px;
+    padding-left: 38px;
+    padding-top: 38px;
+   
+}
+.selection{
+    width: 1000px;
+    height: 400px;
+    background-image: url("hacker.jpg");
+    background-color: white ;
+}
+.font-left{
+    text-align: center;
+    position: absolute;
+    margin-top: -310px;
+    margin-left: 150px;
+}
+.icon{
+ padding: 6px;
+ width: 40px;
+ height: 40px;
+ color: rgb(31, 30, 29);
+ background-color: rgb(241, 227, 227);
+   
+}
+.infor-right{
+padding-left: 100px ;
+padding-top: 25px;
+}
+.infor-last{
+    padding-top: 25px ;   
+}
+
+.footer {
+	display: flex;
+	justify-content: space-evenly;
+	padding: 50px;
+	background-color: darkblue;
+    margin-top: 40px;
+    gap: 130px;
+}
+
+.column {
+	gap: 10px;
+	margin-right: 20px;
+    list-style: none;
+}
+
+.column h2 {
+    text-transform: uppercase;
+    color: azure;
+}
+
+.column h4 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: azure;
+}
+.column li {
+    margin-bottom: 15px;
+    color: grey;
+}
+.h ul li {
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    display: inline; 
+    margin-left: 5px;
+}
+
+.h ul p {
+    margin-left: 10px;
+    color: grey;
+    display: flex;
+}
+.h{
+    width: 100%;
+    height: 40px;
+    background-color: darkblue;
+}
+
+.column {
+    gap: 50px;
+}
+Viết cho Vũ Mạnh Hùng
